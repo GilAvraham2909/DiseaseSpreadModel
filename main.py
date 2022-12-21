@@ -106,14 +106,18 @@ def infected_count(grid, x, y):
         c -= 1
     return c
 
-""""
-כדי לטפל בהתנגשויות עבדנו בצורה הבאה:
-נתנו למשבצת להגריל 20 פעם מקום חדש (כשבתכלס יש רק 9 אפשרויות מה לעשות)
- אם הצלחת באחת מהם ומצאת מקום פנוי מעולה אם לא בסוף 20 הניסיונות
- שמנו אותו במשבצת באלכסון ימינה-למטה. בצורה כזאת בטוח לא יהיה התנגשות משום
- שאנחנו עוברים על המשבצות על פי העמודות ועדיין לא יכול להיות ששמנו במשבצת הזאת מישהו חדש.
- כמובן שאם יש שם מישהו כשנגיע אליו הוא יצטרך לעבור למקום חדש על פי אותם חוקים.
+
 """
+To handle collisions we worked as follows:
+We let the slot roll 20 times a new place (when in total there are only 9 options).
+If you succeeded in one of them and found a free place, great! If not at the end of the 20 attempts we put it in the
+diagonally right-down slot.
+In this way there will certainly not be a conflict because we go through the slots according to the columns and it still
+cannot be that we put someone new in this slot.
+Of course, if there is someone, when we get to them, they will have to move to a new place according to the same laws.
+ """
+
+
 def move(grid, x, y):
     try_count = 20
     while try_count > 0:
@@ -131,8 +135,8 @@ def move(grid, x, y):
 
 def is_infected(probability, infected):
     coefficient = (1 - probability) ** infected
-    num = random.random()
-    if num > coefficient:
+    number = random.random()
+    if number > coefficient:
         return True
     return False
 
@@ -153,9 +157,9 @@ def text_objects(text, font):
 
 
 def update_data(text, data, width, height):
-    TextSurf, TextRect = text_objects(text + str(data), FONT)
-    TextRect.center = (width, height)
-    board.blit(TextSurf, TextRect)
+    text_surf, text_rect = text_objects(text + str(data), FONT)
+    text_rect.center = (width, height)
+    board.blit(text_surf, text_rect)
 
 
 # main
