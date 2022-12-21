@@ -4,9 +4,6 @@ This program is a GUI simulator for a disease spread using a genetic algorithm.
 ## About
 I build an program that simulate a disease spread in the population.
 
-## Owners:
-* Gil Avraham, Git: https://github.com/GilAvraham2909
-
 ## Installing
 - python and install the requirements.txt file.
 
@@ -28,5 +25,8 @@ The view includes:
 * python main.py
 
 ## Links:
-Our GitHub project https://github.com/GilAvraham2909/diseaseSpreadModel
+My GitHub project https://github.com/GilAvraham2909/diseaseSpreadModel
 
+
+## Owners:
+* Gil Avraham, Git: https://github.com/GilAvraham2909
