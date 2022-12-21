@@ -1,4 +1,4 @@
-# diseaseSpreadModel
+# DiseaseSpreadModel
 This program is a GUI simulator for a disease spread using a genetic algorithm.
 
 ## About
