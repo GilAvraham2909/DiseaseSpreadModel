@@ -15,7 +15,7 @@ The GUI looks like:
 
 ![Image of the simulation](view_images/simulation.png "simulation")
 
-![Image of the simulation graph](view_images/grath.png "solution graph")
+![Image of the simulation graph](view_images/graph.png "solution graph")
 
 
 The GUI is built with Python using library pygame.
