@@ -12,8 +12,10 @@ I build an program that simulate a disease spread in the population.
 
 ## View:
 The GUI looks like:
-![Image of the App](https://github.com/GilAvraham2909/diseaseSpreadModel/view_images/opening.png "opening")
-![Image of the App](https://github.com/GilAvraham2909/diseaseSpreadModel/view_images/simulation.png "simulation")
+
+![Image of the App](view_images/opening.png "opening")
+
+![Image of the App](view_images/simulation.png "simulation")
 
 
 The GUI is built with Python using library pygame.
