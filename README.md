@@ -3,6 +3,7 @@ This program is a GUI simulator for a disease spread using a genetic algorithm.
 
 ## About
 I build an program that simulate a disease spread in the population.
+In the end of the run you get a graph of the iterations.
 
 ## Installing
 - python and install the requirements.txt file.
@@ -10,9 +11,11 @@ I build an program that simulate a disease spread in the population.
 ## View:
 The GUI looks like:
 
-![Image of the App](view_images/opening.png "opening")
+![Image of the opening](view_images/opening.png "opening")
 
-![Image of the App](view_images/simulation.png "simulation")
+![Image of the simulation](view_images/simulation.png "simulation")
+
+![Image of the simulation graph](view_images/grath.png "solution graph")
 
 
 The GUI is built with Python using library pygame.
